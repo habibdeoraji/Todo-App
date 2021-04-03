@@ -1,0 +1,117 @@
+body{
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: rgb(179, 184, 179);
+}
+
+/* TODO WRAPPER */
+
+#todo-wrapper{
+    width:40%;
+    min-width:500px;
+    /* background-color: rgb(111, 181, 243); */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    /* padding:20px 10px; */
+}
+
+
+
+/* TODO FORM */
+
+
+.todo-form{
+    display: flex;
+    box-sizing: border-box;
+    width:100%;
+    background-color:rgb(238, 234, 234);
+    padding:30px 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+    box-shadow: 0 0 6px ;
+    border-radius: 8px;
+    border:none;
+}
+
+
+.todo-input{
+    width:70%;
+    font-size: 20px;
+    margin-right: 10px;
+    height: 35px;
+    box-sizing: border-box;
+    outline: none;
+    /* border:none; */
+}
+
+
+.todo-form button{
+    width:30%;
+    min-width:140px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color:rgb(22, 112, 108);
+    border:none;
+    color:white;
+    border-radius: 10px;
+    height: 35px;
+    outline: none;
+}
+
+
+
+
+
+/* TODO LIST */
+
+.todo-list{
+    margin-top: 30px;
+    background-color:rgb(214, 221, 240);
+    padding-top:20px;
+    min-height: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    box-shadow: 0 0 4px ;
+    border-radius: 8px;
+    border:none;
+}
+
+
+.todo-card{
+    display: flex;
+    height:40px;
+    background:rgb(161, 226, 158);
+    justify-content:space-between;
+    vertical-align: middle;
+    align-items: center;
+    margin:10px 0 ;
+    /* padding: 5px; */
+}
+
+.todo-message{
+    margin: 0px;
+    padding: 0px;
+    font-size: 24px;
+    margin: 5px 0px 5px 5px;
+}
+
+
+.delete-button {
+    display:flex;
+    height:100%;
+    border:none;
+    background-color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    align-items: center;
+    min-width: 40px;
+    justify-content:center;
+    /* padding: 5px */
+    cursor: pointer;
+    outline: none;
+}
+
